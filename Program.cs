@@ -187,10 +187,6 @@ namespace Lab1_Calc
                             Console.WriteLine("You probably wrote unary operation, but that calc can't calculate it at now.");
                             return false;
                         }
-                        if (Char.IsDigit(input[i]) && !IsDelimeter(input[i+1]) && !IsOperator(input[i+1]) && !Char.IsDigit(input[i+1]))
-                        {
-                            return false;
-                        }
                     }
                     return true;
                 }    
