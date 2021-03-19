@@ -133,6 +133,7 @@ namespace Lab2_Task3
             side[1] = Sides(rad, DegToRad(secondDeg));
             side[2] = Sides(rad, DegToRad(Angel(firstDeg, secondDeg)));
         }
+        
         static void Main(string[] args)
         {
             Console.WriteLine("Please, choose the variant of entering information about Triangle.");
