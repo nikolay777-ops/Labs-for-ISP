@@ -1,4 +1,5 @@
-﻿using System;
+Получить текущее время и дату в двух разных форматах и вывести на экран коли-чество нулей, единиц, …, девяток в их записи.
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
