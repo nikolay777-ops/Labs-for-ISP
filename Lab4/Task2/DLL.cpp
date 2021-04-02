@@ -1,7 +1,7 @@
 #include "pch.h"
 #include "DLL.h"
 
-extern "C" __declspec(dllexport) double __stdcall FirstCount(int num, double A[], int n, int i)
+extern "C" __declspec(dllexport) double __cdecl FirstCount(int num, double A[], int n, int i)
 {
 	if (i == -1)
 	{
