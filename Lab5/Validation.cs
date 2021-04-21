@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LAB5
 {
-    public class Validation
+    public abstract class Validation
     {
         public static bool CheckName(string str)
         {
