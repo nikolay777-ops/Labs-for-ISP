@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LAB6
 {
-    sealed public class SportStudent : Student, Compare<SportStudent, Student>
+    sealed public class SportStudent : Student, ICompare<SportStudent, Student>
     {
         private string typeOfSection;
         private int popularity;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LAB6
 {
-    sealed class BusinessStudent : Student, Compare<BusinessStudent, Student>
+    sealed class BusinessStudent : Student, ICompare<BusinessStudent, Student>
     {
         private string kindOfBussiness;
         int employeesCount;

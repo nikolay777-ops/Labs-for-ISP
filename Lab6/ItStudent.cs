@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LAB6
 { 
-    sealed class ItStudent : Student, Compare<ItStudent, Student>
+    sealed class ItStudent : Student, ICompare<ItStudent, Student>
     {
         private string progLanguage;
         private double computerStrength;
